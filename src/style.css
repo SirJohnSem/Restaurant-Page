@@ -43,4 +43,7 @@ body .content {
 }
 body .content .homepage {
   color: #fff;
+}
+body .content .homepage h3 {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
