@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/src/img/bg-color.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body header {
+  color: white;
+  text-align: center;
+}
+body header nav ul {
+  display: flex;
+  justify-content: center;
+}
+body header nav ul li {
+  padding: 0.5em 1em;
+  list-style-type: none;
+}
+body header nav ul li a {
+  color: #cf9f57;
+  text-decoration: none;
+  font-weight: bold;
+}
+body header nav ul li a:hover {
+  text-decoration: underline;
+}
+body header nav ul li a:focus {
+  text-decoration: underline;
+}
+body .content {
+  width: 80%;
+  height: auto;
+  border: solid 2px #fff;
+  margin-left: 10%;
+}
+body .content .homepage {
+  color: #fff;
+}
+body .content .homepage h3 {
+  text-align: center;
+}
+body .content .homepage h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+body .content .menupage {
+  color: #fff;
+}
+body .content .menupage h3 {
+  text-align: center;
+}
+body .content .menupage .menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body .content .menupage .menu-container .menuList {
+  flex-basis: 50%;
+  max-width: 40%;
+  margin-bottom: 2em;
+  height: 15em;
+  border: solid 1px #fff;
+  font-weight: 600;
+  background-color: #cf9f57;
+  background-image: url(/src/img/meat.svg);
+  background-size: cover;
+}
+body .content .menupage .menu-container .menuList h4 {
+  text-align: center;
+}
+body .content .menupage .menu-container .menuList:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+body .content .contact-page {
+  padding-left: 2em;
+  color: #fff;
+}
+body .content .contact-page h3 {
+  text-align: center;
+  color: #fff;
+}
+body .content .contact-page h2 {
+  color: #cf9f57;
+}/*# sourceMappingURL=style.css.map */
