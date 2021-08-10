@@ -26,8 +26,9 @@ body {
                     padding: 0.5em 1em;
                     list-style-type: none;
                     a {
-                        color: #fff;
+                        color: rgb(207, 159, 87);
                         text-decoration: none;
+                        font-weight: bold;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -48,6 +49,10 @@ body {
             color: #fff;
             h3 {
                 text-align: center;
+            }
+            h4 {
+                margin-top: 0;
+                margin-bottom: 0.5em;
             }
         }
         .menupage {
@@ -77,6 +82,17 @@ body {
                         transform: scale(1.1);
                     }
                 }
+            }
+        }
+        .contact-page {
+            padding-left: 2em;
+            color: #fff;
+            h3 {
+                text-align: center;
+                color: #fff;
+            }
+            h2 {
+                color: rgb(207, 159, 87);
             }
         }
     }
